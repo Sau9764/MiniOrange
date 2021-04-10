@@ -1,0 +1,26 @@
+GET http://localhost:4000/users
+
+###
+
+POST http://localhost:4000/users
+Content-Type: application/json
+
+{
+    "name": "user",
+    "pass": "user"
+} 
+
+###
+
+POST http://localhost:4000/login
+Content-Type: application/json
+
+{
+    "user": "test",
+    "password": "test123"
+} 
+
+###
+
+GET http://localhost:4000/callback
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoidGVzdCIsImlhdCI6MTYxNzgxNzg3OSwiZXhwIjoxNjE3ODE4MTc5fQ.YzGdlcojk45A_QnPPgN-E2FIzGaTJHe59ONS3wS5zhs

@@ -1,38 +1,57 @@
-.App {
-  text-align: center;
+* body {
+    margin: 0px;
+    padding: 0px;
+    display: block;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: large;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.login {
+    display: flex;
+    margin-top: 100px;
+    margin-left: 40%;
+    height: 400px;
+    width: 350px;
+    background-color: gainsboro;
+    border-radius: 10px;
+    align-items: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.h2-text {
+    margin-left: 35%;
+    margin-top: -30px;;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.text {
+    margin-left: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+.text-field {
+    width: 300px;
+    height: 25px;
+    margin: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.btn {
+    width: 310px;
+    height: 35px;
+    margin-top: 20px;
+    margin-left: 20px;
+    background-color: #000;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.btn-logout {
+    width: 310px;
+    height: 35px;
+    margin-top: 20px;
+    margin-left: 10px;
+    background-color: #000;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.inner {
+    margin: 10px;
 }
