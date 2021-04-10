@@ -42,9 +42,8 @@ Create two web applications for demonstrating the working of the JWT standard. T
  - **npm start**
 3. Insall dependencies required
  - **npm i axios bcrypt express jsonwebtoken**
-4. Unzip the files into /src/ folder and replace them over original files 
- - App.js and App.css 
-5. And server.js file copy into the /challenge-1/ folder along side with [node module or src] file.
+4. Unzip the files and replace the files in /src/ with new created files.
+5. And server.js file copy into the /challenge-1/ folder [in main folder] along side with [node module or src] file.
 6. Start the server into new terminal 
  - **node server.js**
 7. The server is running on port 4000 so make sure it running properly. running message will display on terminal.
