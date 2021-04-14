@@ -38,7 +38,7 @@ Create two web applications for demonstrating the working of the JWT standard. T
 1. Install NodeJS and npm (node - v14.16.0, npm - 6.14.11)
 2. Create react project 
  - **npx create-react-app challenge-1**
- - **cd my-app**
+ - **cd challenge-1**
  - **npm start**
 3. Insall dependencies required
  - **npm i axios bcrypt express jsonwebtoken**
